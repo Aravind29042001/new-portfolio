@@ -1,0 +1,141 @@
+.about-container {
+  background-color: rgb(248, 248, 248);
+}
+.about-title {
+  font-size: 33px;
+  font-weight: 690;
+  letter-spacing: 3px;
+  text-align: center;
+  max-height: 20px;
+  margin-top: 0;
+  margin-bottom: 33px;
+  padding-top: 60px;
+}
+.line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  border: 2px solid rgb(120, 67, 232);
+  background-color: rgb(120, 67, 232);
+  max-width: 250px;
+  width: 100%;
+  height: 2px;
+}
+.about-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-subtitle {
+  padding: 0 1rem 1rem 1rem;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 800px;
+  color: #555;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+.tittle-known {
+  margin-left: 10px;
+}
+.known-item {
+  font-size: 15px;
+  padding: 1rem;
+  text-align: left;
+  line-height: 28px;
+}
+.known-item > a {
+  color: blue;
+  font-size: 17px;
+}
+.tittle-skill {
+  margin-left: 10px;
+}
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 8px;
+}
+.skill-items > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.skill-items > img:hover {
+  background-color: rgba(120, 67, 233, 0.2);
+}
+span {
+  font-weight: bold;
+}
+@media (min-width: 760px) {
+  .about-title {
+    font-size: 1.7rem;
+    padding-top: 80px;
+  }
+  .about-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    max-width: 630px;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about-known {
+    width: 50%;
+  }
+  .skillss {
+    width: 50%;
+  }
+  .known-item {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .known-item > a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 940px) {
+  .about-title {
+    font-size: 2.1rem;
+    margin-bottom: 54px;
+    padding-top: 100px;
+  }
+  .about-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    max-width: 750px;
+    margin-bottom: 60px;
+  }
+  .tittle-known {
+    font-size: 24px;
+  }
+  .known-item {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 12px;
+  }
+  .about-content {
+    gap: 40px;
+  }
+  .tittle-skill {
+    font-size: 24px;
+  }
+}
